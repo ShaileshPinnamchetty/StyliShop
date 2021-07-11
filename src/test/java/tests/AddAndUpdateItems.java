@@ -10,7 +10,7 @@ import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
-public class CreateIssue extends Base{
+public class AddAndUpdateItems extends Base{
 	
 	String jwtoken, customerId, quoteId;
 	
